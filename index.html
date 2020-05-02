@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>Bootstrap Layout</title>
+  </head>
+  
+  <body>
+    <h1>Bootstrap layout</h1>
+    <br><br><br>
+    <h3> Container </h3>
+    <section class="sec1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box"><p>Container</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+
+    <h3> Container-fluid </h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box"><p>fluid-container</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Equal width</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row">
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>One column width</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row">
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+          <div class="col-md-5">
+            <div class="box"><p>col-md-5</p></div>
+          </div>
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="box"><p>col-md-7</p></div>
+          </div>
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Variable width content(with justify)</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row justify-content-md-center">
+          <div class="col col-md-2">
+            <div class="box"><p>col col-md-2</p></div>
+          </div>
+          <div class="col-md-auto">
+            <div class="box"><p>Variable width content Variable width content</p></div>
+          </div>
+          <div class="col col-md-2">
+            <div class="box"><p>col col-md-2</p></div>
+          </div>
+        </div>
+     </div>
+    </section>
+    <br><br>
+
+    <h3>Variable width content(without justify)</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row">
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+          <div class="col-md-auto">
+            <div class="box"><p>Variable width content</p> </div>
+          </div>
+          <div class="col col-md-4">
+            <div class="box"><p>col col-md-4</p></div>
+          </div>
+        </div>
+     </div>
+    </section>
+    <br><br>
+
+    <h3>All breakpoints</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+         <div class="row">
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p> </div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+           <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-8">
+            <div class="box"><p>col-8</p></div>
+          </div>
+          <div class="col-2">
+            <div class="box"><p>col-2</p></div>
+          </div>
+          <div class="col-2">
+            <div class="box"><p>col-2</p></div>
+          </div>
+        </div>
+     </div>
+    </section>
+    <br><br>
+
+    <h3>Stacked to horizontal</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box"><p>col-md-4</p></div>
+          </div>
+          <div class="col-md-8">
+            <div class="box"><p>col-md-8</p> </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md">
+            <div class="box"><p>col-md</p></div>
+          </div>
+          <div class="col-md">
+            <div class="box"><p>col-md</p> </div>
+          </div>
+          <div class="col-md">
+            <div class="box"><p>col-md</p> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+
+    <h3>Mix and match</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="box"><p>col-md-8</p></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="box"> <p>col-6 .col-md-4</p> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Row columns</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row row-cols-2">
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-3">
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-4">
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col-6">
+            <div class="box"><p>col-6</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-1 row row-cols-sm-2 row row-cols-md-4">
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+          <div class="col">
+            <div class="box"><p>col</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+     <h3>Vertical alignment (start)</h3>
+    <section class="sec3">
+      <div class="fluid-container">
+        <div class="row align-items-start" style="height: 200px;border: 1px solid; background-color:turquoise"> 
+          <div class="col-md-3">
+            <div class="box"><p>col-md-3</p></div>
+          </div>
+          <div class="col-md-6">
+            <div class="box"><p>col-md-6</p></div>
+          </div>
+          <div class="col-md-3">
+            <div class="box"><p>col-md-3</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Vertical alignment (center)</h3>
+    <section class="sec3">
+      <div class="fluid-container">
+        <div class="row align-items-center" style="height: 200px;border: 1px solid; background-color: turquoise"> 
+          <div class="col-md-3">
+            <div class="box"><p>col-md-3</p></div>
+          </div>
+          <div class="col-md-6">
+            <div class="box"><p>col-md-6</p></div>
+          </div>
+          <div class="col-md-3">
+            <div class="box"><p>col-md-3</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    
+    <h3>Vertical alignment (end)</h3>
+    <section class="sec3">
+      <div class="fluid-container">
+        <div class="row align-items-end" style="height: 200px;border: 1px solid; background-color: turquoise"> 
+          <div class="col-md-3">
+            <div class="box"><p>col-md-3</p></div>
+          </div>
+          <div class="col-md-6">
+            <div class="box"><p>col-md-6</p></div>
+          </div>
+          <div class="col-md-3">
+            <div class="box"><p>col-md-3</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Vertical alignment (mixed)</h3>
+    <section class="sec3">
+      <div class="fluid-container">
+        <div class="row " style="height: 200px;border: 1px solid; background-color: turquoise"> 
+          <div class="col align-self-start col-md-3">
+            <div class="box"><p>col-md-3</p></div>
+          </div>
+          <div class="col align-self-center col-md-6">
+            <div class="box"><p>col-md-6</p></div>
+          </div>
+          <div class="col align-self-end col-md-3">
+            <div class="box"> <p>col-md-3</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Horizontal alignment(start)</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row justify-content-start">
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Horizontal alignment(center)</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Horizontal alignment(end)</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row justify-content-end">
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Horizontal alignment(around)</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row justify-content-around">
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Horizontal alignment(between)</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Column wrapping</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row ">
+          <div class="col-9">
+            <div class="box"><p>col-9</p></div>
+          </div>
+          <div class="col-4">
+            <div class="box"><p>col-4</p></div>
+          </div>
+          <div class="col-6">
+            <div class="box"><p>col-6</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Column break</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row ">
+          <div class="col-6 col-md-4">
+            <div class="box"><p>col-6,col-md-4</p></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="box"><p>col-6.col-md-4</p></div>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-6 col-md-4">
+            <div class="box"><p>col-6,col-md-4</p></div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="box"><p>col-6.col-md-4</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Offset classes</h3>
+    <section class="sec1">
+      <div class="Container-fluid">
+        <div class="row ">
+          <div class="col-md-4">
+            <div class="box"><p>col-md-4</p></div>
+          </div>
+          <div class="col-md-4 offset-md-4">
+            <div class="box"><p>col-md-4,offset-md-4</p></div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-3 offset-md-3">
+            <div class="box"><p>col-md-3, offset-md-3</p></div>
+          </div>
+          <div class="col-md-3 offset-md-2">
+            <div class="box"><p>col-md-3,offset-md-2</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <h3>Nesting</h3>
+    <section class="sec1">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="box"><p> col</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="box"><p>col-md-6</p></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="box"><p>col-md-6</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+  
+
+   
+    <!--JS links -->
+    <script src="js/jquery-3.5.0.min.js" ></script> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/script.js"></script>
+ 
+  </body>
+</html>
